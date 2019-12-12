@@ -1,0 +1,44 @@
+html {
+  font-family: Verdana, sans-serif;
+  background-color: #bea586;
+
+  background-image: url("../images/sloth-bg.svg"), repeating-linear-gradient(-30deg, #bea586, #bea586 40px, #bea586d0 40px, #bea586d0 20px);
+  background-size: 48px auto;
+}
+
+.content {
+  background-color: #fff;
+}
+
+h1 {
+  color: #fff;
+  filter: drop-shadow(3px 3px 0 rgba(28, 14, 0));
+}
+
+h1,
+figcaption {
+  font-family: Georgia, serif;
+}
+
+.masthead,
+.footer {
+  background-color: #93612c;
+  color: #fff;
+}
+
+a {
+  color: #000;
+}
+
+.borders {
+  border-top: 2px solid rgba(28, 14, 0);
+  border-bottom: 2px solid rgba(28, 14, 0, .6);
+}
+
+.banner {
+  background-image: linear-gradient(to bottom, rgba(28, 14, 0, .8), rgba(28, 14, 0, 0) 25%), url("../images/banner-sloth.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-image-width: 1px;
+}
