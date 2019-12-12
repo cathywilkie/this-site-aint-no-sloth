@@ -1,8 +1,7 @@
 html {
   font-family: Verdana, sans-serif;
   background-color: #bea586;
-
-  background-image: url("../images/sloth-bg.svg"), repeating-linear-gradient(-30deg, #bea586, #bea586 40px, #bea586d0 40px, #bea586d0 20px);
+  background-image: url("../images/sloth-bg.svg");
   background-size: 48px auto;
 }
 
@@ -12,7 +11,7 @@ html {
 
 h1 {
   color: #fff;
-  filter: drop-shadow(3px 3px 0 rgba(28, 14, 0));
+  filter: drop-shadow(3px 3px 0 rgba(28, 14, 0, .9));
 }
 
 h1,
@@ -31,7 +30,7 @@ a {
 }
 
 .borders {
-  border-top: 2px solid rgba(28, 14, 0);
+  border-top: 2px solid rgba(28, 14, 0, .6);
   border-bottom: 2px solid rgba(28, 14, 0, .6);
 }
 
